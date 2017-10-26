@@ -51,6 +51,8 @@ K
 3
  ```
  
+ *********************
+ 
  ## How to use
  
  Just use `` python devide_plate.py `` will be enough.
