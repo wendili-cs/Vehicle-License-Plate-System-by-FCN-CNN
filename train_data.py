@@ -1,3 +1,8 @@
+'''
+TensorFlow 1.3
+Python 3.6
+By LiWenDi
+'''
 import tensorflow as tf
 import input_data
 import os
