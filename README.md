@@ -2,11 +2,11 @@
 
 ## Intruction
 
-It's a Vehicle License Plate System using fully connected neural network &amp; orthogonal projection method
+It's a Vehicle License Plate System using fully connected neural network/convolutional neural network &amp; orthogonal projection method
 
 _Trainning model has been uploaded to the project._
 
-_这是采用了垂直投影法和全连接型神经网络训练出的车牌划分+识别的系统。训练模型已经上传至源码。_
+_这是采用了垂直投影法和全连接型神经网络/卷积神经网络训练出的车牌划分+识别的系统。训练模型已经上传至源码。_
 
 给出一张原图：
 Given a vehicle license plate picture:
