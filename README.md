@@ -51,8 +51,47 @@ K
 3
  ```
  
+ __Updated in 2017.10.27__
+ 
+ I make another neural network using CNN instead of FCNN, the result shows that the accuracy has greatly imporved.
+ 
+ The new file will be uploaded to this project.
+ 
+ '''
+ 这个车牌号为：
+2017-10-27 09:37:40.648339: I C:\tf_jenkins\home\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\gpu\gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1060, pci bus id: 0000:01:00.0)
+2017-10-27 09:37:41.249366: I C:\tf_jenkins\home\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\gpu\gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1060, pci bus id: 0000:01:00.0)
+F
+2017-10-27 09:37:44.717921: I C:\tf_jenkins\home\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\gpu\gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1060, pci bus id: 0000:01:00.0)
+2017-10-27 09:37:44.863863: I C:\tf_jenkins\home\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\gpu\gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1060, pci bus id: 0000:01:00.0)
+Q
+2017-10-27 09:37:48.461074: I C:\tf_jenkins\home\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\gpu\gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1060, pci bus id: 0000:01:00.0)
+2017-10-27 09:37:48.652067: I C:\tf_jenkins\home\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\gpu\gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1060, pci bus id: 0000:01:00.0)
+K
+2017-10-27 09:37:50.211998: I C:\tf_jenkins\home\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\gpu\gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1060, pci bus id: 0000:01:00.0)
+2017-10-27 09:37:50.353106: I C:\tf_jenkins\home\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\gpu\gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1060, pci bus id: 0000:01:00.0)
+8
+2017-10-27 09:37:51.709629: I C:\tf_jenkins\home\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\gpu\gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1060, pci bus id: 0000:01:00.0)
+2017-10-27 09:37:51.862629: I C:\tf_jenkins\home\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\gpu\gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1060, pci bus id: 0000:01:00.0)
+8
+2017-10-27 09:37:54.024512: I C:\tf_jenkins\home\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\gpu\gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1060, pci bus id: 0000:01:00.0)
+2017-10-27 09:37:54.173851: I C:\tf_jenkins\home\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\gpu\gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1060, pci bus id: 0000:01:00.0)
+3
+ '''
+ 
+ 
  *********************
  
  ## How to use
  
- Just use `` python devide_plate.py `` will be enough.
+ - If you want to train by yourself, please run `` train_data.py `` for FCNN, or `` train_data_cnn.py `` for CNN. Then the model will be saved automatically.
+ 
+ The training process will be like this:
+ 
+ ![pic](https://github.com/AdamAlive/MarkdownRef/blob/master/228.jpg?raw=true)
+ 
+ ![pic](https://github.com/AdamAlive/MarkdownRef/blob/master/229.jpg?raw=true)
+ 
+ - Then use `` python devide_plate.py ``, choose which neural network you would like to use by turnning the `` USE_CNN `` switch.
+ 
+ ![pic](https://github.com/AdamAlive/MarkdownRef/blob/master/230.jpg?raw=true)
