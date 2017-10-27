@@ -1,3 +1,8 @@
+'''
+TensorFlow 1.3
+Python 3.6
+By LiWenDi
+'''
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 import numpy as np
