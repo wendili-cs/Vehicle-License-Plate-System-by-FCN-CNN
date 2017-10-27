@@ -53,7 +53,7 @@ K
  
  __Updated in 2017.10.27__
  
- I make another neural network using CNN instead of FCNN, the result shows that the accuracy has greatly imporved.
+ I make another neural network using CNN instead of FCN, the result shows that the accuracy has greatly imporved.
  
  The new file will be uploaded to this project.
  
@@ -84,7 +84,7 @@ K
  
  ## How to use
  
- - If you want to train by yourself, please run `` train_data.py `` for FCNN, or `` train_data_cnn.py `` for CNN. Then the model will be saved automatically.
+ - If you want to train by yourself, please run `` train_data.py `` for FCN, or `` train_data_cnn.py `` for CNN. Then the model will be saved automatically.
  
  The training process will be like this:
  
