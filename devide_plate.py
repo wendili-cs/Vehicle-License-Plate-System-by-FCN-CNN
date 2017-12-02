@@ -95,10 +95,6 @@ def devide_plate(input_dir):
         else:
         #cv2.imshow('Image', each)
         #cv2.waitKey(0)
-        #print(len(each))
-        #print(len(each[0]))
-        #print(len(each[0][0]))
-        #print(len(each[0][0][0]))
             if USE_CNN:
                 tryOne_def_cnn.Identification(each)
             else:
